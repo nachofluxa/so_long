@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 12:52:40 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2024/02/19 12:29:59 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/02/20 10:25:20 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@ void	error_message(int error_type)
 		write(1, "Error: Map not founded\n", 24);
 	else if (error_type == 3)
 		write(1, "Error: Map received is invalid\n", 32);
-	//exit(0);
+	system("so_long leaks");
+	exit(0);
 }
 
 void	print_moves(t_map *map)

@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 09:50:02 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2024/02/19 12:04:03 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/02/20 10:08:55 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ typedef struct s_map
 {
 	int		x;
 	int		y;
-	int		ini;
+	int		player;
 	int		gift;
 	int		exit;
 	int		num_mov;

@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 11:23:19 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2024/02/19 12:31:00 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/02/20 10:09:31 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	ini_map(t_map *map)
 {
 	map->x = 0;
 	map->y = 0;
-	map->ini = 0;
+	map->player = 0;
 	map->gift = 0;
 	map->exit = 0;
 	map->num_mov = 0;
@@ -56,7 +56,6 @@ int	main(int argc, char **argv)
 		error_message(1);
 	ini_map(&map);
 	checker(argv, &map);
-	printf("%d\n", map.x);
 	//map.mlx = mlx_init();
 	//map.win = mlx_new_window(map.mlx, 0, 0, "SO_LONG");
 	//draw_map(&map);
