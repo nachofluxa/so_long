@@ -6,7 +6,7 @@
 #    By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/29 09:59:37 by ifluxa-c          #+#    #+#              #
-#    Updated: 2024/02/19 12:00:51 by ifluxa-c         ###   ########.fr        #
+#    Updated: 2024/02/21 10:50:06 by ifluxa-c         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,8 @@ SRC =	./gnl/get_next_line.c \
 		./sources/so_long.c \
 		./sources/print.c \
 		./sources/map.c \
-		./sources/checker.c
+		./sources/checker.c \
+		./sources/moves.c
 
 OBJS = ${SRC:.c=.o}
 

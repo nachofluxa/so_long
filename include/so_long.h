@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 09:50:02 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2024/02/20 10:08:55 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/02/23 10:54:43 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,18 @@
 //C -> collectible;
 //E -> exit;
 //P -> player's starting position;
+
+enum
+{
+	ON_KEYDOWN = 2,
+	ON_KEYUP = 3,
+	ON_MOUSEDOWN = 4,
+	ON_MOUSEUP = 5,
+	ON_MOUSEMOVE = 6,
+	ON_EXPOSE = 12,
+	ON_DESTROY = 17
+};
+
 typedef struct s_map
 {
 	int		x;
@@ -52,12 +64,16 @@ void	checker(char **argv, t_map *map);
 void	print_map(t_map *map, size_t x, size_t y, char *box_value);
 void	draw_map(t_map *map);
 
+//moves.c
+
 //print.c
 void	error_message(int type_error);
 void	print_moves(t_map *map);
 
 //so_long.c
-void	ini_map(t_map *map);
+int		just_finished(t_map *map);
 void	map_storaged(t_map *map, int fd);
+void	ini_map(t_map *map);
+
 
 #endif
