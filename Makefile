@@ -6,7 +6,7 @@
 #    By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/29 09:59:37 by ifluxa-c          #+#    #+#              #
-#    Updated: 2024/02/21 10:50:06 by ifluxa-c         ###   ########.fr        #
+#    Updated: 2024/03/07 13:21:46 by ifluxa-c         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,10 +16,11 @@ LIBFT_NAME = libft.a
 SRC =	./gnl/get_next_line.c \
 		./gnl/get_next_line_utils.c \
 		./sources/so_long.c \
-		./sources/print.c \
+		./sources/print_and_free.c \
 		./sources/map.c \
 		./sources/checker.c \
-		./sources/moves.c
+		./sources/keys.c \
+		./sources/check_path.c
 
 OBJS = ${SRC:.c=.o}
 
@@ -28,7 +29,7 @@ HEADER := ./include/
 
 MLX	= -l mlx -framework OpenGL -framework AppKit
 CC := gcc
-CFLAGS := -Wall -Wextra -Werror  
+CFLAGS := -Wall -Wextra -Werror
 RM := rm -f
 
 %.o: %.c

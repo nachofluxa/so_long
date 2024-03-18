@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    test_right.xpm                                     :+:      :+:    :+:    #
+#    link_right.xpm                                     :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: migonzal <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/19 09:30:42 by migonzal          #+#    #+#              #
-#    Updated: 2022/02/09 09:01:06 by migonzal         ###   ########.fr        #
+#    Updated: 2024/03/05 11:34:00 by ifluxa-c         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 static char *_125947791b94c38ac6c14661d144f33wXApWeWtBvRkZt9g[] = {
 /* columns rows colors chars-per-pixel */
 "40 40 225 2 ",
-"   c #0C1618",
+"  c #489848",
 ".  c #261C1F",
 "X  c #162217",
 "o  c #08281E",
@@ -240,44 +240,44 @@ static char *_125947791b94c38ac6c14661d144f33wXApWeWtBvRkZt9g[] = {
 "sX c None",
 "dX c #C5CFC9",
 /* pixels */
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX# # # # sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXU > C C C g g l * I sXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsX/ { 2 C H.|.H.M.c.x.v ; : k sXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsX/ } m b.D.S. XK.C./.(.t.=.4 & * sXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXU U Y C Z.J. XG.H.V.l./.u.'.r.O 7 R , : sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsX< $ $ m S.|.|.G.Z.z.n.(.u.u.*.3 5X8Xs o sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsX4 K b.v $ z Z.A.V.M./.2.(.].u.*.r g.wXeX7XR sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXC S.J.m.l g N.z.M B.`.u.y.e.<.i Q wXeXrXrXa.- sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsX( J H.|.A.z.M m.z.l w t.'.y.r O u h.0XeXeXtXeXh.- sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsX| D.}.A.M.c.v.n.j  .6.:.*.;.W ! Q wXtXtX6Xj.j.T : sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsX{ F.S.M.z.c.m.h 5 k.*X0   Y 0XeXwX9XwX9X .X X * sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsX| D.J.M.v.m.g o 7 k.1XXXs 7 9X8XE 8 a T 6.n O sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsX( J B.v.x.m 1 @ 3 f.<X2XG 7 9Xh.X } ( 2 7.q.3 sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXz m.m 1 2 = 2 =.[.<XP 7 9Xp.0 pXuXs 0.$Xs & sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsX, z l ; sXsXX ;.[.#XV Y eXs.; aXpX9 5.1X,XH ; sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXa E 5.1.r.n s 6Xp. .iXuX..q.<X,X .@ sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXp.8XW e 1.r.4.8 X.*Xk.#X*X&X9.p > : sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsX| h.R X r r.r.n 0.-Xt.1.d.H D ..{ : sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsX, = 1 ; 4 D 1.9.9.:.>.;.< + A *Xf.= sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXX _ U.] c u p i u e c ' : i i.4.# sXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsX4 L.yXR.~ + @ > ^ > ] T.U.Z n w sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsX4 I.^.Y.( 2 . _ Y.Y.R.!.T.[ < ( sXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsX@ , I.!._ i D D B ) I.yX!.] ; # sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXl L E.P.2 p 7.8.d - I.T.[ A b 3 sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsX8..XP + - V 3.3.w * U.` ; ).{.B sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXL 3XoX3.1 H i.w.q.d.( S ).3X@X0 sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXL.3X_.5 G =X*X;X&Xu H 4X+X' ( sXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsX0 W.E.< 6.=X*X;X*Xp x Q.+.- sXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsX) ^ < 0.;X:X&X5.3 k ~ O.sXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX# < ..$X$XG = 2 3 2 sXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX. X z Z { ; @ $.@.% sXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXu t t q r b =.#.y < sXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXd %.&.#.e.u.e.r ; sXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXy $.y -.-.;.4 sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX* * & @ & sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX",
-"sXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsXsX"
+"                                                                                ",
+"                                                                                ",
+"                                    # # # #                                     ",
+"                              U > C C C g g l * I                               ",
+"                          / { 2 C H.|.H.M.c.x.v ; : k                           ",
+"                        / } m b.D.S. XK.C./.(.t.=.4 & *                         ",
+"                    U U Y C Z.J. XG.H.V.l./.u.'.r.O 7 R , :                     ",
+"                    < $ $ m S.|.|.G.Z.z.n.(.u.u.*.3 5X8Xs o                     ",
+"                4 K b.v $ z Z.A.V.M./.2.(.].u.*.r g.wXeX7XR                     ",
+"                C S.J.m.l g N.z.M B.`.u.y.e.<.i Q wXeXrXrXa.-                   ",
+"            ( J H.|.A.z.M m.z.l w t.'.y.r O u h.0XeXeXtXeXh.-                   ",
+"            | D.}.A.M.c.v.n.j  .6.:.*.;.W ! Q wXtXtX6Xj.j.T :                   ",
+"            { F.S.M.z.c.m.h 5 k.*X0   Y 0XeXwX9XwX9X .X X *                     ",
+"            | D.J.M.v.m.g o 7 k.1XXXs 7 9X8XE 8 a T 6.n O                       ",
+"            ( J B.v.x.m 1 @ 3 f.<X2XG 7 9Xh.X } ( 2 7.q.3                       ",
+"                z m.m 1 2 = 2 =.[.<XP 7 9Xp.0 pXuXs 0.$Xs &                     ",
+"                , z l ; sXsXX ;.[.#XV Y eXs.; aXpX9 5.1X,XH ;                   ",
+"                          a E 5.1.r.n s 6Xp. .iXuX..q.<X,X .@                   ",
+"                          p.8XW e 1.r.4.8 X.*Xk.#X*X&X9.p > :                   ",
+"                          | h.R X r r.r.n 0.-Xt.1.d.H D ..{ :                   ",
+"                          , = 1 ; 4 D 1.9.9.:.>.;.< + A *Xf.=                   ",
+"                            X _ U.] c u p i u e c ' : i i.4.#                   ",
+"                            4 L.yXR.~ + @ > ^ > ] T.U.Z n w                     ",
+"                            4 I.^.Y.( 2 . _ Y.Y.R.!.T.[ < (                     ",
+"                          @ , I.!._ i D D B ) I.yX!.] ; #                       ",
+"                          l L E.P.2 p 7.8.d - I.T.[ A b 3                       ",
+"                          8..XP + - V 3.3.w * U.` ; ).{.B                       ",
+"                          L 3XoX3.1 H i.w.q.d.( S ).3X@X0                       ",
+"                            L.3X_.5 G =X*X;X&Xu H 4X+X' (                       ",
+"                            0 W.E.< 6.=X*X;X*Xp x Q.+.-                         ",
+"                              ) ^ < 0.;X:X&X5.3 k ~ O.                          ",
+"                                # < ..$X$XG = 2 3 2                             ",
+"                                . X z Z { ; @ $.@.%                             ",
+"                                u t t q r b =.#.y <                             ",
+"                                d %.&.#.e.u.e.r ;                               ",
+"                                  y $.y -.-.;.4                                 ",
+"                                    * * & @ &                                   ",
+"                                                                                ",
+"                                                                                ",
+"                                                                                "
 };

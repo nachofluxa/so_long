@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 17:16:47 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2021/10/18 13:40:17 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/03/05 12:43:06 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,18 @@ static void	read_fd(int fd, char **buffer)
 	}
 	aux[len] = '\0';
 	*buffer = ft_substr(aux, 0, len);
-	free(aux); 
+	free(aux);
 }
 
 static char	*do_after_jump(char **buffer)
 {
 	char	*aux;
 	char	*str;
+	size_t	size;
 
+	size = ft_strlen(ft_strchr(*buffer, '\n'));
 	aux = before_char(*buffer);
-	str = ft_substr(ft_strchr(*buffer, '\n'), 0, ft_strlen(ft_strchr(*buffer, '\n')));
+	str = ft_substr(ft_strchr(*buffer, '\n'), 0, size);
 	free(*buffer);
 	*buffer = ft_substr(str, 0, ft_strlen(str));
 	free(str);
@@ -49,7 +51,7 @@ static void	get_next(int fd, char **buffer)
 	ssize_t	len;
 
 	str = NULL;
-	while(!ft_strchr(*buffer, '\n'))
+	while (!ft_strchr(*buffer, '\n'))
 	{
 		aux = (char *)malloc(sizeof(char) * BUFFER_SIZE + 1);
 		len = read(fd, aux, BUFFER_SIZE);
@@ -65,9 +67,9 @@ static char	*get_line(int fd, char **buffer)
 {
 	char	*aux;
 
-	if(!*buffer)
+	if (!*buffer)
 		read_fd(fd, &(*buffer));
-	if(!*buffer)
+	if (!*buffer)
 		return (NULL);
 	get_next(fd, &(*buffer));
 	if (ft_strchr(*buffer, '\n'))
@@ -86,7 +88,7 @@ static char	*get_line(int fd, char **buffer)
 char	*get_next_line(int fd)
 {
 	char		*aux;
-	static char	*s[4096]; 
+	static char	*s[4096];
 
 	if (fd > 4096 || fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
@@ -98,19 +100,3 @@ char	*get_next_line(int fd)
 	}
 	return (aux);
 }
-
-/*int main(int argc, char const *argv[])
-{
-	int fd; 
-	char *str;
-	int j;
-
-	fd = open("test.txt", O_RDWR);
-	while(j < 300)
-	{
-		str = get_next_line(fd);
-		printf("%s", str);
-		j++;
-	}
-	return 0;
-}*/

@@ -6,7 +6,7 @@
 /*   By: ifluxa-c <ifluxa-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 17:27:07 by ifluxa-c          #+#    #+#             */
-/*   Updated: 2021/10/18 13:47:21 by ifluxa-c         ###   ########.fr       */
+/*   Updated: 2024/03/05 12:42:03 by ifluxa-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ char	*before_char(const char *buffer)
 	i = 0;
 	len = ft_strlen(aux);
 	while (i < len)
-	{	
+	{
 		if (aux[i] == '\n')
 		{
 			str = ft_substr(aux, 0, i + 1);
